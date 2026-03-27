@@ -1,1 +1,47 @@
+[[stations]]
+id = "CYEG_DEL"
+parent_id = "CYEG_GND"
+controlled_by = ["CYEG_DEL"]
 
+[[stations]]
+id = "CYEG_GND"
+parent_id = "CYEG_TWR"
+controlled_by = ["CYEG_GND"]
+
+[[stations]]
+id = "CYEG_TWR"
+parent_id = "CYEG_DEP"
+controlled_by = ["CYEG_TWR"]
+
+[[stations]]
+id = "CYEG_DEP"
+parent_id = "CYEG_APP"
+controlled_by = ["CYEG_DEP"]
+
+[[stations]]
+id = "CYEG_APP"
+controlled_by = ["CYEG_APP"]
+
+[[stations]]
+id = "CYYC_DEL"
+parent_id = "CYYC_GND"
+controlled_by = ["CYYC_DEL"]
+
+[[stations]]
+id = "CYYC_GND"
+parent_id = "CYYC_TWR"
+controlled_by = ["CYYC_GND", "CYYC_E_GND", "CYYC_W_GND"]
+
+[[stations]]
+id = "CYYC_TWR"
+parent_id = "CYYC_DEP"
+controlled_by = ["CYYC_TWR", "CYYC_E_TWR", "CYEG_W_TWR"]
+
+[[stations]]
+id = "CYYC_DEP"
+parent_id = "CYYC_APP"
+controlled_by = ["CYYC_DEP"]
+
+[[stations]]
+id = "CYYC_APP"
+controlled_by = ["CYYC_APP", "CYYC_E_APP", "CYYC_W_APP"]
