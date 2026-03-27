@@ -1,1 +1,13 @@
-Placeholder
+[[positions]]
+id = "CZEG_FSS"
+prefixes = ["CZEG"]
+frequency = "135.025"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_E_FSS"
+prefixes = ["CZEG"]
+frequency = "135.025"
+facility_type = "FSS"
+profile_id = "CZEG"
